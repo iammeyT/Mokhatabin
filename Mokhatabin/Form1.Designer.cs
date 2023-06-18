@@ -179,7 +179,7 @@
             this.abouttool});
             this.toolStrip.Location = new System.Drawing.Point(0, 0);
             this.toolStrip.Name = "toolStrip";
-            this.toolStrip.Size = new System.Drawing.Size(780, 72);
+            this.toolStrip.Size = new System.Drawing.Size(780, 74);
             this.toolStrip.TabIndex = 4;
             this.toolStrip.Text = "toolStrip1";
             // 
@@ -188,7 +188,7 @@
             this.addtool.Image = ((System.Drawing.Image)(resources.GetObject("addtool.Image")));
             this.addtool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.addtool.Name = "addtool";
-            this.addtool.Size = new System.Drawing.Size(85, 69);
+            this.addtool.Size = new System.Drawing.Size(95, 71);
             this.addtool.Text = "افزودن مخاطب";
             this.addtool.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.addtool.Click += new System.EventHandler(this.addtool_Click);
@@ -198,7 +198,7 @@
             this.removetool.Image = ((System.Drawing.Image)(resources.GetObject("removetool.Image")));
             this.removetool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.removetool.Name = "removetool";
-            this.removetool.Size = new System.Drawing.Size(77, 69);
+            this.removetool.Size = new System.Drawing.Size(86, 71);
             this.removetool.Text = "حذف مخاطب";
             this.removetool.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.removetool.Click += new System.EventHandler(this.removetool_Click);
@@ -208,7 +208,7 @@
             this.edittool.Image = ((System.Drawing.Image)(resources.GetObject("edittool.Image")));
             this.edittool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.edittool.Name = "edittool";
-            this.edittool.Size = new System.Drawing.Size(88, 69);
+            this.edittool.Size = new System.Drawing.Size(96, 71);
             this.edittool.Text = "ویرایش مخاطب";
             this.edittool.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.edittool.Click += new System.EventHandler(this.edittool_Click);
@@ -218,7 +218,7 @@
             this.showtool.Image = ((System.Drawing.Image)(resources.GetObject("showtool.Image")));
             this.showtool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.showtool.Name = "showtool";
-            this.showtool.Size = new System.Drawing.Size(80, 69);
+            this.showtool.Size = new System.Drawing.Size(88, 71);
             this.showtool.Text = "نماش مخاطب";
             this.showtool.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.showtool.Click += new System.EventHandler(this.showtool_Click);
@@ -228,19 +228,19 @@
             this.refreshtool.Image = ((System.Drawing.Image)(resources.GetObject("refreshtool.Image")));
             this.refreshtool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.refreshtool.Name = "refreshtool";
-            this.refreshtool.Size = new System.Drawing.Size(57, 69);
+            this.refreshtool.Size = new System.Drawing.Size(62, 71);
             this.refreshtool.Text = "تازه سازی";
             this.refreshtool.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.refreshtool.Click += new System.EventHandler(this.refreshtool_Click);
             // 
             // abouttool
             // 
-            this.abouttool.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
             this.abouttool.Image = ((System.Drawing.Image)(resources.GetObject("abouttool.Image")));
             this.abouttool.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.abouttool.Name = "abouttool";
-            this.abouttool.Size = new System.Drawing.Size(54, 69);
+            this.abouttool.Size = new System.Drawing.Size(74, 71);
             this.abouttool.Text = "تماس با من";
+            this.abouttool.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.abouttool.Click += new System.EventHandler(this.abouttool_Click);
             // 
             // mokhatabinTable1TableAdapter

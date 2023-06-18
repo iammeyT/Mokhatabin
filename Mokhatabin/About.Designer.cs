@@ -58,9 +58,9 @@
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(13, 59);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 13);
+            this.label3.Size = new System.Drawing.Size(116, 13);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Tel : @Iammey_t";
+            this.label3.Text = "Telegram : @Iammey_t";
             // 
             // label4
             // 
@@ -76,15 +76,15 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(231, 37);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 13);
+            this.label5.Size = new System.Drawing.Size(55, 13);
             this.label5.TabIndex = 3;
-            this.label5.Text = "vr : 1.0.0";
+            this.label5.Text = "ver : 1.0.1";
             // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(384, 161);
+            this.ClientSize = new System.Drawing.Size(384, 142);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
